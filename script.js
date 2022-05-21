@@ -69,8 +69,6 @@ function assign(n){
   Shipments.adds(listArray[n]);
   listArray.splice(n,1)
   shipmentCreater();
-  alert(Shipments.inventory);
-  alert(Shipments.name);
 }
 function viewShip(){
   list.innerText = "";
